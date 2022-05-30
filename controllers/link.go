@@ -9,3 +9,7 @@ func GetLink(c *fiber.Ctx) {
 func PostLink(c *fiber.Ctx) {
 	c.Send("Added new page")
 }
+
+func DeleteLink(c *fiber.Ctx) {
+	c.Send("Deleted Link")
+}
